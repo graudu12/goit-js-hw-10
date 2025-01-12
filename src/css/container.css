@@ -1,0 +1,126 @@
+/* Styles for Mobile devices */
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+.datetime-input {
+  width: 280px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+  color: #2e2f42;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  outline: none;
+}
+.start-btn {
+  width: 75px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #0037fe;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 0;
+}
+.timer {
+  display: flex;
+  width: 390px;
+  height: 70px;
+  gap: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.value {
+  color: #000000;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+.label {
+  color: #2e2f42;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.flatpickr-calendar.open {
+  background-color: #ffffff;
+}
+.timer-container {
+  width: 500px;
+  margin: auto;
+}
+/*form css*/
+.form {
+  width: 360px;
+  height: 230px;
+  margin: auto;
+}
+.delay-input {
+  width: 330px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  outline: none;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+.delay-input:hover {
+  border: 1px solid #000;
+}
+
+.delay-input:focus {
+  border: 1px solid #0037fe;
+}
+
+.visually-hidden {
+  padding: 0;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+.form-btn {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  width: 360px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #0138ff;
+  border: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background-color: #587cfe;
+}
