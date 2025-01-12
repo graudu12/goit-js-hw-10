@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 3</title>
+    <script type="module" crossorigin src="/vanilla-app-template/page-3.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-BbbuE1sJ.js">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-CZjNVMTf.css">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-LIq66O4w.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="nav-list active" href="./index.html"> Home </a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-act}" href="./page-2.html"
+            >Target 1</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./page-3.html"
+            >Target 2</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <main>
+      <div class="container">
+        <h1 class="main-title">
+          <span class="main-title-gradient">Welcome</span> to target 2
+        </h1>
+      </div>
+      <form class="form">
+        <label>
+          Delay (ms)
+          <input class="delay-input" type="number" name="delay" required />
+        </label>
+
+        <fieldset class="fieldset-wrap">
+          <legend>State</legend>
+          <label>
+            <input
+              class="visually-hidden"
+              type="radio"
+              name="state"
+              value="fulfilled"
+              required
+            />
+            <span class="radio-btn"></span>
+            Fulfilled
+          </label>
+          <label>
+            <input
+              class="visually-hidden"
+              type="radio"
+              name="state"
+              value="rejected"
+              required
+            />
+            <span class="radio-btn"></span>
+            Rejected
+          </label>
+        </fieldset>
+
+        <button class="form-btn" type="submit">Create notification</button>
+      </form>
+    </main>
+  </body>
+</html>
